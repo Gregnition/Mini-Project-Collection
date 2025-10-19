@@ -11,7 +11,6 @@ A collection of small vanilla JavaScript projects to showcase UI, logic, and int
 Open any project's `index.html` in your browser.
 
 ## Live demo (GitHub Pages)
-After enabling Pages (Settings → Pages → Deploy from branch → `main` / root):
 
 - Landing page: `https://gregnition.github.io/mini-project-collection/`
 - Drum: `https://gregnition.github.io/mini-project-collection/drum/`
