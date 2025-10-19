@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="calculator">
+    <input id="display" readonly>
+    
+    <div id="keys">
+      <!-- Top row -->
+      <button data-action="clear">C</button>
+      <button data-action="backspace">←</button>
+      <button data-value="/" data-action="operator">/</button>
+      <button data-value="*" data-action="operator">*</button>
+
+      <!-- Second row -->
+      <button data-value="7">7</button>
+      <button data-value="8">8</button>
+      <button data-value="9">9</button>
+      <button data-value="-" data-action="operator">-</button>
+
+      <!-- Third row -->
+      <button data-value="4">4</button>
+      <button data-value="5">5</button>
+      <button data-value="6">6</button>
+      <button data-value="+" data-action="operator">+</button>
+
+      <!-- Fourth row -->
+      <button data-value="1">1</button>
+      <button data-value="2">2</button>
+      <button data-value="3">3</button>
+      <button data-action="calculate">=</button>
+
+      <!-- Bottom row -->
+      <button data-value="0">0</button>
+      <button data-value=".">.</button>
+    </div>
+
+    <div id="history">
+      <h3>History</h3>
+      <ul id="history-list"></ul>
+    </div>
+
+    <button id="theme-toggle">Toggle Theme</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

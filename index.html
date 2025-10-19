@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Frontend Projects</title>
+  <style>
+    :root { --fg:#111; --muted:#6b7280; --border:#e5e7eb; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; color: var(--fg); line-height: 1.5; }
+    h1 { margin: 0 0 .25rem; }
+    .grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); margin-top: 1rem; }
+    a.card { display:block; padding:16px; border:1px solid var(--border); border-radius:12px; text-decoration:none; color:inherit; transition:.15s ease; }
+    a.card:hover { box-shadow: 0 8px 24px rgba(0,0,0,.08); transform: translateY(-1px); }
+    small { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <h1>Mini Frontend Projects</h1>
+  <small>Vanilla JavaScript • HTML • CSS</small>
+
+  <div class="grid">
+    <a class="card" href="./drum/">
+      <strong>Drum Kit</strong><br/>
+      <small>Keyboard & click-triggered drum sounds with visual feedback.</small>
+    </a>
+
+    <a class="card" href="./dice/">
+      <strong>Dice Roller</strong><br/>
+      <small>Animated rolls with sound, multi-dice, and totals.</small>
+    </a>
+
+    <a class="card" href="./calculator/">
+      <strong>Calculator</strong><br/>
+      <small>Full expression input, history recall, theme toggle.</small>
+    </a>
+  </div>
+
+  <p style="margin-top:1rem;color:#6b7280;">More coming soon…</p>
+</body>
+</html>
