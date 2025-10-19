@@ -13,13 +13,13 @@ Open any project's `index.html` in your browser.
 ## Live Demo
 
 - **Landing Page**  
-  https://gregnition.github.io/mini-project-collection/
+  https://gregnition.github.io/Mini-Project-Collection/
 
 - **Drum Kit**  
-  https://gregnition.github.io/mini-project-collection/drum/
+  https://gregnition.github.io/Mini-Project-Collection/drum/
 
 - **Dice Roller**  
-  https://gregnition.github.io/mini-project-collection/dice/
+  https://gregnition.github.io/Mini-Project-Collection/dice/
 
 - **Calculator**  
-  https://gregnition.github.io/mini-project-collection/calculator/
+  https://gregnition.github.io/Mini-Project-Collection/calculator/
